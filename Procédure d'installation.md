@@ -1,5 +1,28 @@
 # Procédure d'Installation
 
+Ce document décrit l'installation du système et des application aisni que leur configuration étape par étape
+
+#### Résumé
+
+1. préparation hardware et software
+2. installation d'OS X 10.11
+3. installation des Command Line Tools via terminal ou XCode via le Mac App Store
+4. installation des applications via le Mac App Store
+5. installation d'homebrew via curl
+6. installation de git, ruby, cask, mackup, dockutil, bash, bash-completion et tree via homebrew
+7. récupération des dotfiles via git
+8. execution du script d'installation
+    - déploiement des liens symboliques
+    - configuration de Bash
+    - installation des applications via cask
+    - configuration d'OS X
+    - configuration des applications via mackup
+9. configuration des applications via création de liens symboliques vers dropbox
+11. configuration manuelle du système via System Preferences
+13. installation de python 3 et de node.js via homebrew
+12. installation manuelle des applications
+13. configuration manuelle des applications
+
 
 ## Installation d'OSX
 
@@ -24,7 +47,7 @@ Installation de l'OS puis utilisation de l'application Multibeast pour pouvoir d
 Système MacPro 3,1.
 
 
-## Post-installation
+## Installation des Apps et configuration
 
 ### Préparation
 
@@ -41,6 +64,8 @@ Dû à la protection SIP d'El Capitan, Homebrew peut avoir des difficultés à s
     `csrutil enable`
 4. Redémarrer OSX
 
+### Installation
+
 #### Mac App Store
 
 Installation des applications et de XCode via le Mac App Store en une seule opération via l'onglet "Purchased".
@@ -48,7 +73,7 @@ Installation des applications et de XCode via le Mac App Store en une seule opé
 1. [ ] installation des Apps via le Mac App Store
 2. [ ] Installation d'XCode et des Command Line Tools via le Mac App Store
 
-#### Automatisation
+#### Homebrew
 
 Installation des outils nécessaires à l'automatisation (Ruby, Git, Python, NodeJS, Cask, mackup)
 
@@ -57,54 +82,43 @@ Installation des outils nécessaires à l'automatisation (Ruby, Git, Python, Nod
 2. [ ] Installation de la dernière version de Homebrew. Dans Terminal, entrer :  
     `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-#### Homebrew
-[ ] installation de Git, Ruby, Python, NodeJS, Cask et Mackup via Homebrew
+#### Command Line Utilities
+
+Installation de Git, Ruby, Cask, Bash, dockutil et Mackup via Homebrew
+
 1. Dans Terminal, entrer :
     `brew update`
     puis
     `brew doctor`
 2. Si `brew doctor` renvoie un message d'erreur, apporter les corrections demandées et relancer la commande jusqu'à ne plus avoir de message d'erreur.
 3. Une fois que `brew doctor` arrête de se plaindre, entrer
-    `brew install bash git ruby dockutil mackup bash-completion2 ssh-copy-id wget tree`
-    ça devrait prendre un moment
-4. Puis entrer : 
-    `brew tap 'caskroom/cask'`
-    puis :
-    `brew tap 'caskroom/versions'`
-    et finalement :
-    `tap 'caskroom/fonts'`
-
-Une fois Homebrew installé et ses dépots additionnels ajoutés, récupérer les dotfiles et lancer leur déploiement puis l'exécution du script d'installation :
-
-## Ordre d'installation
-
-Ce document est une liste ordonnée qui décrit les étapes du processus d'installation.
-
-1. installation des Command Line Tools via terminal ou XCode via le Mac App Store
-2. installation des applications via le Mac App Store
-3. installation d'homebrew via curl
-4. installation de git, ruby, cask, mackup, python et bash via homebrew
-5. récupération des dotfiles via git
-6. execution du script d'installation
-    - déploiement des liens symboliques
-    - configuration de Bash
-    - installation des applications via cask
-    - configuration d'OS X
-    - configuration des applications via mackup
-7. configuration des applications via création de liens symboliques vers dropbox
-8. configuration manuelle du système via System Preferences
-9. installation manuelle des applications
-10. configuration manuelle des applications
+    `brew install bash git ruby dockutil mackup bash-completion2 tree`
+Ça devrait prendre un moment.
 
 
-## Post-installation
+## Configuration et post-installation
 
-[ ] configuration de l'emplacement du dossier utilisateur
-[ ] Configuration de Hazel
-[ ] Test des apps spécialisées dans la gestiond des documents/fichiers/tags (Hazel/Together/Leap/Yep)
-[ ] Application des tags sur l'ensemble des Datas
-[ ] Import des Datas dans le dossier Dropbox
-[ ] Création de la structure de dossiers, dossiers intelligents et alias
+#### Dotfiles
+
+Une fois Homebrew installé, récupérer les dotfiles et lancer leur déploiement puis l'exécution du script d'installation :
+    `git clone https://github.com/viviengarcia/Dotfiles.git ~/Git/Dotfiles`
+puis :
+    `source ~/Git/Dotfiles/install.sh`
+
+Une fois le script executé, redémarrer et finir les configurations manuelles.
+
+#### Manuel
+
+- [ ] configuration manelle d'OS X
+- [ ] configuration de l'emplacement du dossier utilisateur
+- [ ] installation manuelle des applications restantes
+- [ ] configuration manuelle des applications restantes
+- [ ] Configuration de Hazel
+- [ ] Test des apps spécialisées dans la gestiond des documents/fichiers/tags (Hazel/Together/Leap/Yep)
+- [ ] Application des tags sur l'ensemble des Datas
+- [ ] Import des Datas dans le dossier Dropbox
+- [ ] Création de la structure de dossiers, dossiers intelligents et alias
+- [ ] installation de python 3 et de node.js via homebrew
 
 #### Tri des fichiers et dossiers
 - [ ] Multimédia
@@ -119,4 +133,3 @@ Ce document est une liste ordonnée qui décrit les étapes du processus d'insta
 - [ ] Création Numérique -> Réorganisation arborescence + tri
     + [ ] _Perso
         * [ ] Photo Noël
-
