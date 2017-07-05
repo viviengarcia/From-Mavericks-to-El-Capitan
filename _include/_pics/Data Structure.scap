@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="A2B454A5-9117-45F2-9EF7-A4BF007E3E43">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="283.487544,565.344604" Width="53.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Desktop</String>
+            <ConnectedNoteIDs>11, 17, 42-44</ConnectedNoteIDs>
+            <PointsToNoteIDs>17, 42-44</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="283.487544,415.230513" Width="38.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>InOut</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="285.076727,800.112547" Width="41.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Public</String>
+            <ConnectedNoteIDs>88</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="283.487544,487.286629" Width="55.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>DropBox</String>
+            <ConnectedNoteIDs>11, 24-25, 28</ConnectedNoteIDs>
+            <PointsToNoteIDs>24-25, 28</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="283.038364,326.153455" Width="69.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Documents</String>
+            <ConnectedNoteIDs>11, 13-15, 60</ConnectedNoteIDs>
+            <PointsToNoteIDs>13-15, 60</PointsToNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="285.076727,884.112547" Width="40.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Music</String>
+            <ConnectedNoteIDs>89</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="285.076727,912.112547" Width="47.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Movies</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="285.076727,828.112547" Width="52.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Pictures</String>
+            <ConnectedNoteIDs>91</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="743.897629,454.340185" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Repository :
+text, 
+multimedia, 
+binaries</String>
+            <ConnectedNoteIDs>19-21, 24, 63-65, 67, 71, 73, 76-78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="93.621451,326.196906" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Vivien</String>
+            <ConnectedNoteIDs>1-2, 4-5</ConnectedNoteIDs>
+            <PointsToNoteIDs>1-2, 4-5</PointsToNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="500.618907,325.608731" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Audio</String>
+            <ConnectedNoteIDs>5, 19-21</ConnectedNoteIDs>
+            <PointsToNoteIDs>19-21</PointsToNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="501.0,382.0" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Video</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="501.0,354.0" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Image</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="285.076727,856.112547" Width="68.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Downloads</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="500.618907,732.608731" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Folder Structure</String>
+            <ConnectedNoteIDs>1, 88-93</ConnectedNoteIDs>
+            <PointsToNoteIDs>88-93</PointsToNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="966.345273,326.961636" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Podcasts</String>
+            <ConnectedNoteIDs>9, 13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="966.117839,354.885256" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Music</String>
+            <ConnectedNoteIDs>9, 13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="966.117839,382.885256" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Recordings</String>
+            <ConnectedNoteIDs>9, 13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="500.618907,484.608731" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>User</String>
+            <ConnectedNoteIDs>4, 9</ConnectedNoteIDs>
+            <PointsToNoteIDs>9, 12, 45</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="501.0,513.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>ShareBox</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="285.076727,939.112547" Width="35.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Sites</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="501.0,541.0" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Public</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="500.618907,622.608731" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Logo</String>
+            <ConnectedNoteIDs>1, 57-58, 66</ConnectedNoteIDs>
+            <PointsToNoteIDs>57-58, 66</PointsToNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="501.0,651.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Carte de visite</String>
+            <ConnectedNoteIDs>1, 68-70</ConnectedNoteIDs>
+            <PointsToNoteIDs>68-70</PointsToNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="501.0,679.0" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Project x</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="744.115091,563.22255" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>_in</String>
+            <ConnectedNoteIDs>42, 63-64, 76</ConnectedNoteIDs>
+            <PointsToNoteIDs>63-64, 76</PointsToNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="744.115091,619.458986" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>_out</String>
+            <ConnectedNoteIDs>42, 65</ConnectedNoteIDs>
+            <PointsToNoteIDs>65</PointsToNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="501.0,410.0" Width="31.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Text</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="967.951061,518.491965" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Photo.jpg</String>
+            <ConnectedNoteIDs>9, 57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="967.951061,546.491965" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>font.otf</String>
+            <ConnectedNoteIDs>9, 57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="967.951061,602.491965" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square"></Border>
+            </Appearance>
+            <String>logo.png</String>
+            <ConnectedNoteIDs>9, 58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="744.115091,591.22255" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Work Files</String>
+            <ConnectedNoteIDs>42, 67</ConnectedNoteIDs>
+            <PointsToNoteIDs>67</PointsToNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="967.951061,574.491965" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square"></Border>
+            </Appearance>
+            <String>logo.afdesign</String>
+            <ConnectedNoteIDs>9, 66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="744.115091,665.849089" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>_in</String>
+            <ConnectedNoteIDs>43, 77-78</ConnectedNoteIDs>
+            <PointsToNoteIDs>77-78</PointsToNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="744.115091,722.315022" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>_out</String>
+            <ConnectedNoteIDs>43, 73</ConnectedNoteIDs>
+            <PointsToNoteIDs>73</PointsToNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="744.115091,694.315022" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Work Files</String>
+            <ConnectedNoteIDs>43, 71</ConnectedNoteIDs>
+            <PointsToNoteIDs>71</PointsToNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="968.926591,710.023376" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square"></Border>
+            </Appearance>
+            <String>carte de visite.afdesign</String>
+            <ConnectedNoteIDs>9, 70</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="968.926591,738.023376" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Style="Square"></Border>
+            </Appearance>
+            <String>carte_de_viste.pdf</String>
+            <ConnectedNoteIDs>9, 69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="967.951061,490.300146" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>specifications.md</String>
+            <ConnectedNoteIDs>9, 57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="968.926591,653.841734" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>logo.png</String>
+            <ConnectedNoteIDs>9, 68</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="968.926591,682.023376" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>logo.afdesign</String>
+            <ConnectedNoteIDs>9, 68</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="103.923273,218.038364" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Alias</String>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="103.923273,190.038364" Width="78.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.28917 0.071669 0.003213</TextColor>
+                <Border Weight="2" Style="Square">0.991403 0.571008 0.397268</Border>
+            </Appearance>
+            <String>Smart Folder</String>
+        </Note>
+        <Note ID="86" FontSize="13.0" Position="97.808182,76.383637" Width="55.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.30689 0.30689 0.30689</TextColor>
+                <Border Style="Square"></Border>
+            </Appearance>
+            <String>Legend</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="103.923273,148.038364" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+            <String>Simple folder - visible directly in finder</String>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="744.115091,800.043452" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Public</String>
+            <ConnectedNoteIDs>3, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="744.115091,883.043452" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Music</String>
+            <ConnectedNoteIDs>6, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="744.115091,911.043452" Width="47.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Movies</String>
+            <ConnectedNoteIDs>7, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="744.115091,827.043452" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Pictures</String>
+            <ConnectedNoteIDs>8, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="744.115091,855.043452" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Downloads</String>
+            <ConnectedNoteIDs>16-17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="744.115091,938.043452" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.139215 0.0278 0.178527</TextColor>
+                <Border Weight="2" Style="Square">0.841092 0.495964 0.979041</Border>
+            </Appearance>
+            <String>Sites</String>
+            <ConnectedNoteIDs>17, 26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="103.923273,106.038364" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.500737 0.500737 0.500737</TextColor>
+                <Border Weight="1" Style="Square">0.500737 0.500737 0.500737</Border>
+            </Appearance>
+            <String>Simple folder - Content visible only from an alias</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="27" Sticky="Yes" Position="83.0,310.0" Width="63.0" Height="56.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">1.0 1.0 1.0</Border>
+                <Fill>0.842632 0.921673 0.792615</Fill>
+            </Appearance>
+        </Shape>
+        <Shape ID="40" Sticky="Yes" Position="86.923273,60.038364" Width="228.0" Height="199.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">0.866043 0.941754 0.354628</Border>
+                <Fill>0.969994 0.970718 0.816792</Fill>
+            </Appearance>
+        </Shape>
+        <Shape ID="59" Sticky="Yes" Position="272.0,310.0" Width="92.0" Height="669.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">1.0 1.0 1.0</Border>
+                <Fill>0.842632 0.921673 0.792615</Fill>
+            </Appearance>
+        </Shape>
+        <Shape ID="79" Sticky="Yes" Position="490.0,310.0" Width="117.0" Height="463.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">1.0 1.0 1.0</Border>
+                <Fill>0.842632 0.921673 0.792615</Fill>
+            </Appearance>
+        </Shape>
+        <Shape ID="80" Sticky="Yes" Position="954.0,310.0" Width="154.0" Height="621.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">1.0 1.0 1.0</Border>
+                <Fill>0.842632 0.921673 0.792615</Fill>
+            </Appearance>
+        </Shape>
+        <Shape ID="100" Sticky="Yes" Position="732.0,438.0" Width="96.0" Height="541.0">
+            <Appearance>
+                <Border Weight="2" Style="Square">1.0 1.0 1.0</Border>
+                <Fill>0.842632 0.921673 0.792615</Fill>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>3, 8, 16, 6-7, 26</Stack>
+        <Stack>13, 15, 14, 60</Stack>
+        <Stack>19-21</Stack>
+        <Stack>24-25, 28</Stack>
+        <Stack>42-44</Stack>
+        <Stack>57, 66, 58</Stack>
+        <Stack>63-64, 67, 65</Stack>
+        <Stack>68, 70, 69</Stack>
+        <Stack>71, 73</Stack>
+        <Stack>77-78</Stack>
+        <Stack>84, 83</Stack>
+        <Stack>88, 91-92, 89-90, 93</Stack>
+        <Stack>96, 87</Stack>
+    </Stacks>
+    <AutoFit>1-9, 11, 13-17, 19-21, 24-28, 40, 42-44, 57-60, 63-71, 73, 76-79, 83-84, 86, 88-93, 100</AutoFit>
+    <NoteStyles>
+        <Style Name="_Alias" ID="BA342D6D-C66D-4711-8AE8-B161E3E951A4" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="Yes" AffectNoteBody="Yes" AffectSize="No" AffectFade="No" AffectSticky="Yes">
+            <FontSize>12.0</FontSize>
+            <Alignment>Left</Alignment>
+            <TextColor>0.139215 0.0278 0.178527</TextColor>
+            <BorderThickness>2</BorderThickness>
+            <BorderStyle>Square</BorderStyle>
+            <BorderColor>0.841092 0.495964 0.979041</BorderColor>
+            <Size>56.0,150.0</Size>
+        </Style>
+        <Style Name="_Hierachical Group" ID="15016F20-A928-45D9-A74B-AD157FAE5D82" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectSize="No" AffectFade="No" AffectSticky="Yes">
+            <FontSize>12.0</FontSize>
+            <BorderThickness>2</BorderThickness>
+            <BorderStyle>Square</BorderStyle>
+            <BorderColor>1.0 1.0 1.0</BorderColor>
+            <FillColor>0.842632 0.921673 0.792615</FillColor>
+            <Size>64.097656,62.144531</Size>
+        </Style>
+        <Style Name="_Simple folder - Invisible" ID="187A102C-B9CA-425F-A0B7-0F7088F05948" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="Yes" AffectNoteBody="Yes" AffectSize="No" AffectFade="Yes" AffectSticky="Yes">
+            <FontSize>12.0</FontSize>
+            <Alignment>Left</Alignment>
+            <TextColor>0.500737 0.500737 0.500737</TextColor>
+            <BorderThickness>1</BorderThickness>
+            <BorderStyle>Square</BorderStyle>
+            <BorderColor>0.500737 0.500737 0.500737</BorderColor>
+            <Size>41.0,150.0</Size>
+        </Style>
+        <Style Name="_Simple folder - visible" ID="533F9BAA-A2D1-4584-8EBA-FECE0F21BC2B" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="Yes" AffectNoteBody="Yes" AffectSize="No" AffectFade="Yes" AffectSticky="Yes">
+            <FontSize>12.0</FontSize>
+            <Alignment>Left</Alignment>
+            <BorderThickness>1</BorderThickness>
+            <BorderStyle>Square</BorderStyle>
+            <Size>66.0,150.0</Size>
+        </Style>
+        <Style Name="_Smart Folder" ID="4CE8446D-3596-4DDF-AD86-D63B127D8D4A" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="Yes" AffectNoteBody="Yes" AffectSize="No" AffectFade="No" AffectSticky="Yes">
+            <FontSize>12.0</FontSize>
+            <Alignment>Left</Alignment>
+            <TextColor>0.28917 0.071669 0.003213</TextColor>
+            <BorderThickness>2</BorderThickness>
+            <BorderStyle>Square</BorderStyle>
+            <BorderColor>0.991403 0.571008 0.397268</BorderColor>
+            <Size>58.0,150.0</Size>
+        </Style>
+        <Style Name="Blue Bubble" ID="1B5CED1C-7506-4F06-98DB-9C333678948B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="C0CD19B3-8BF6-4ED5-83F6-4E7E362CB2CD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="BAC10E95-92CA-41EF-88FB-0185B4837C09" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="A7742BA8-C731-4BB3-85B3-27314EBAF12C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="7D978F12-FFA5-4C2E-A736-73C5C7D49AB1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="E64E800B-C4C0-46EA-B8E4-0F7472C3B7DB" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="F1ECDA27-4B71-438E-B7C3-B9EB1D530A7D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.280015,841.890015" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
