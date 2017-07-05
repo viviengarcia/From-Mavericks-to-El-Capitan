@@ -16,7 +16,7 @@ Rapidité et simplicité : l'intervention humaine est limitée pendant l'install
 
 Différents outils et méthodes permettent d'atteindre les objectifs.
 
-###Préparation
+### Préparation
 
 #### Tri des données
 
