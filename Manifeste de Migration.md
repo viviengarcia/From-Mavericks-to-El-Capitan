@@ -1,8 +1,3 @@
-Version : 1
-Cate de création : 24/06/2017
-Migration : OS X 10.9 -> OS X 10.11
-
-
 # Manifeste de Migration
 
 Le but de ce document est de définir les moyens et objectifs de la migration de mon système informatique actuel vers sa nouvelle version majeure. I décrit la préparation, l'installation et la configuration ainsi que les éléments qui s'y rapportent.  
