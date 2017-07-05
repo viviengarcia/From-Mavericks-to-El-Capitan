@@ -36,7 +36,7 @@ Le but de ce document est de lister les tâches à effectuer ainsi que de permet
 - [ ] création de fichiers d'installation et de configuration
     + [x] préférences bash
     + [x] préférences système, etc.
-    + [ ] homebrew
+    + [x] homebrew
     + [x] cask
     + [x] mackup
     + [ ] symlinks
